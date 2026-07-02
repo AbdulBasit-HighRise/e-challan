@@ -6,8 +6,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="w-full bg-[#1b4b8f] relative overflow-hidden font-sans text-white/80 mt-16 border-t border-blue-900/40">
-      
+<footer className="w-full bg-[#1b4b8f] text-white relative z-10 m-0 p-6 border-t border-blue-900/40">      
       {/* 1:1 Matching Gold Accent Line at the very top */}
       <div className="w-full h-[4px] bg-gradient-to-r from-[#b89444] via-[#a07828] to-[#886018]" />
       

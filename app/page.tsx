@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#f8fafc] text-[#1e293b] antialiased relative">
+    <main className="min-h-screen bg-white text-[#1e293b] antialiased relative">
       {/* 1. Global Announcement Pop-up Modal */}
       <AdModal />
 
@@ -20,7 +20,6 @@ export default function Home() {
       <InfoGrid />
       
       {/* 5. Complete Corporate Style Legal Footer */}
-      <Footer />
     </main>
   );
 }
